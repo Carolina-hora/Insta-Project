@@ -1,37 +1,41 @@
-/*to remove in the end of the project*/
+/*to remove in the end of the project
 
 * {
     outline: 1px solid red;
 }
-/**/
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: lightgray;
+}
 .header {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.content1 {
-    margin-left: 25%;
-    margin-right: 25%;
+.content1, .content2, .content3 {
+    margin-left: 35%;
+    margin-right: 35%;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    background: white;
+}
+.topLeft, .topRight {
+    padding: 10px;
 }
 
-.content2 {
-    margin-left: 25%;
-    margin-right: 25%;
-    font-family: 'Montserrat', sans-serif;
-}
-.content3 {
-    margin-left: 25%;
-    margin-right: 25%;
-    font-family: 'Montserrat', sans-serif;
-}
 /*.flex-container {
     display: flex;
 }
@@ -47,7 +51,7 @@ h2 {
     height: 30px;
 }
 
-/* Another option to display the title of photo and date, but flex seems cleaner
+/* Another option to display the title of photo and date, using flex display
 */
 .topLeft {
     float: left;
